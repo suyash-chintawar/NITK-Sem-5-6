@@ -1,0 +1,15 @@
+*****MASTER SECRET GENERATION*****
+
+Client Random Number: b'4\x87\x1e\xc0\xfa5.\x89g\xf2\x9d\xa9\xbf\xc2\x1a\x1d\xa2\xcb\x9c+c`\x18\xe1o\xf0\xa9\xec\xc1\x11\xc6r'
+Server Random Number: b"Z\xb2Lx\xf4\xe8K\x9eR\x0bB,\xfa)\xc1\xef\x06\x03\x7f\xe8\x81|\xa2\xb9\x1dm\xaa\x869M'\x95"
+Master Secret: f7aba699de0ae910514bed73ef864517fd9e1fd09da4aaabee23b765fb9d3c8f2d1ad6ceeb411fbfbe2ec0e9bdd25e11
+
+*****KEY MATERIAL AND CRYPTOGRAPHIC SECRETS*****
+
+Key Material: 183a5a37127172344ddecd2a0f89418f32c1c9886be9408feba1584c5ffe06f4d3ba328e458ede94ce38e90b450ad309
+Client Authentication Key: 183a5a3712717234
+Server Authentication Key: 4ddecd2a0f89418f
+Client Encryption Key: 32c1c9886be9408f
+Server Encryption Key: eba1584c5ffe06f4
+Client Initial Vector: d3ba328e458ede94
+Server Initial Vector: ce38e90b450ad309

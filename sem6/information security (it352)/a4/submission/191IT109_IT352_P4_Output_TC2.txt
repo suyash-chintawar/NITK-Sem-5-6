@@ -1,0 +1,9 @@
+ENCRYPTION:
+Plain text: applefruit
+Cipher text: GVVRKLXAOZ
+Key: 6
+
+DECRYPTION:
+Cipher text: GVVRKLXAOZ
+Plain text: applefruit
+Key: 6

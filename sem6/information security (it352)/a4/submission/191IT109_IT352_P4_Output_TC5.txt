@@ -1,0 +1,9 @@
+ENCRYPTION:
+Plain text: udupirailwaystation
+Cipher text: DMDYRAJRUFJHBCJCRXW
+Key: 9
+
+DECRYPTION:
+Cipher text: DMDYRAJRUFJHBCJCRXW
+Plain text: udupirailwaystation
+Key: 9

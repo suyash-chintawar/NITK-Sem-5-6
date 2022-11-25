@@ -1,0 +1,9 @@
+ENCRYPTION:
+Plain text: mangaloredistrict
+Cipher text: RFSLFQTWJINXYWNHY
+Key: 5
+
+DECRYPTION:
+Cipher text: RFSLFQTWJINXYWNHY
+Plain text: mangaloredistrict
+Key: 5

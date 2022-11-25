@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title>Unit Converter (191IT109)</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</header>
+<body onload="startTime()">
+    <div id="wrapper">
+        <div id="header">
+            <h1>Change My Unit</h1>
+        </div>
+        <div id="content" style="height: 500px; margin: 0 auto;">
+            <div style="padding: 50px; font-size: 20px; color: red; font-weight: bold;">LENGTH CONVERTER</div>
+            <div id="panel">
+                <div id="from">
+                    <div>From:</div>
+                    <input id="first" type="number" placeholder="Value">
+                    <select id="unit-from" name="length-unit-from">
+                        <option value="meter">Meters</option>
+                        <option value="yard">Yards</option>
+                        <option value="foot">Foot</option>
+                        <option value="inch">Inches</option>
+                    </select>
+                </div>
+
+                <div id="to" style="padding: 10px;">
+                    <div>To:  </div>
+                    <input id="second" type="number" placeholder="Value">
+                    <select id="unit-to" name="length-unit-to">
+                        <option value="meter" selected>Meters</option>
+                        <option value="yard">Yards</option>
+                        <option value="foot">Foor</option>
+                        <option value="inch">Inches</option>
+                    </select>
+                </div>
+
+                <button id="btn-convert" onclick="convertLength()">Convert</button>
+            </div>
+        </div>
+        <div id="footer">
+            Change My Unit, Submitted by Suyash Chintawar<br>
+            NITK, Surathkal 2022<br>
+            Server time : 
+            <text id="time"></text>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

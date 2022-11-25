@@ -1,0 +1,16 @@
+
+****d-value computation****
+
+d value: 160009
+
+****Signer Side****
+
+Message: [65, 108, 108, 32, 116, 104, 101, 32, 98, 101, 115, 116]
+Signature: [218138, 21514, 21514, 183231, 673165, 233114, 93308, 183231, 447329, 93308, 550573, 673165]
+
+****Verifier Side****
+
+Decrypted message: [65, 108, 108, 32, 116, 104, 101, 32, 98, 101, 115, 116]
+Decrypted message text: All the best
+
+MESSAGE VERIFICATION SUCCESS!!

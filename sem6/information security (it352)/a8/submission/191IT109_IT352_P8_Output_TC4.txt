@@ -1,0 +1,10 @@
+
+***Obtained intermediate texts***
+Iteration 0 : 83
+Iteration 1 : 73
+Iteration 2 : 57
+Iteration 3 : 8
+
+Loop found, decode success!
+Plain text obtained: 57
+No. of iterations: 3

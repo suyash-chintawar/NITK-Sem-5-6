@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title>Fitt's Law (191IT109)</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</header>
+<body onload="startTime();getList();plotGraph()">
+    <div id="wrapper">
+        <div id="header">
+            <h1> Fitt's Law Experiment</h1>
+        </div>
+        <div id="content">
+            <div id="left" style="width: 50%; float: left; padding: 50px;">
+                <h3 style="text-align: left;">Table showing the selection time for a circle with a certain width and at a certain distance</h3>
+                <table id="myTable" style="width: 90%; padding: 10px;">
+                    <thead>
+                    <tr>
+                        <th>Circle No.</th>
+                        <th>Distance (in px)</th>
+                        <th>Width (diameter in px)</th>
+                        <th>Selection Time (in ms)</th>
+                    </tr>
+                    </thead>
+                    <tbody id="testBody"></tbody>
+                </table>
+            </div>
+            <div id="right" style="padding: 50px;">
+              <canvas id="myChart" width="500" height="500"></canvas>
+            </div>
+        </div>
+        <div id="footer">
+            Fitt's Law Experiment, Submitted by Suyash Chintawar<br>
+            NITK, Surathkal 2022<br>
+            Server time : 
+            <text id="time"></text>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+</body>
+</html>

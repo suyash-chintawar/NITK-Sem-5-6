@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title>Fitt's Law (191IT109)</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</header>
+<body onload="startTime()">
+    <div id="wrapper">
+        <div id="header">
+            <h1> Fitt's Law Experiment</h1>
+        </div>
+        <div id="content" style="height: 500px;">
+            
+            <div id="info" style="margin: 20px;">
+                <h2>Instructions to the experiment:</h2>
+                <ul>
+					<li>1) Click on the Start button to start the experiment.</li>
+					<li>2) You must click on the circle immediately after it appears.</li>
+					<li>3) After you click the first circle, another circle will appear on the screen with a random size, 
+                        colour, and position. </li>
+                    <li>4) Immediately upon seeing this next circle, click on it as well.</li>
+                    <li>5) Continue steps 3 and 4 indefinitely if circles continue to develop (about 30 circles).</li>
+                    <li>6) The simulation ends after all circles are clicked and the results are displayed.</li>
+                    
+
+				</ul>
+            </div>
+            <button onclick="startGame()"> START </button>
+        </div>
+        <div id="footer">
+            Fitt's Law Experiment, Submitted by Suyash Chintawar<br>
+            NITK, Surathkal 2022<br>
+            Server time : 
+            <text id="time"></text>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title>Unit Converter (191IT109)</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</header>
+<body onload="startTime()">
+    <div id="wrapper">
+        <div id="header">
+            <h1>Change My Unit</h1>
+        </div>
+        <div id="content" style="height: 500px; margin: 0 auto;">
+            <div style="padding: 50px; font-size: 25px; color: black; font-weight: bold;">Select a quantity which you wish to convert!</div>
+            <div id="buttons" style="padding-top: 25px;">
+                <button id="btn_time" onclick="location.href='time.html'">Time</button>
+                <button id="btn_mass" onclick="location.href='mass.html'">Mass</button>
+                <button id="btn_len" onclick="location.href='length.html'">Length</button>
+            </div>
+        </div>
+        <div id="footer">
+            Change My Unit, Submitted by Suyash Chintawar<br>
+            NITK, Surathkal 2022<br>
+            Server time : 
+            <text id="time"></text>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

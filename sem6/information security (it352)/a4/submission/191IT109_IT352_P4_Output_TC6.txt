@@ -1,0 +1,9 @@
+ENCRYPTION:
+Plain text: nitksbibank
+Cipher text: VQBSAJQJIVS
+Key: 8
+
+DECRYPTION:
+Cipher text: VQBSAJQJIVS
+Plain text: nitksbibank
+Key: 8

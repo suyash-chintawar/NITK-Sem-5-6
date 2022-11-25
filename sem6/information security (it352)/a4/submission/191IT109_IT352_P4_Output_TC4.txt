@@ -1,0 +1,9 @@
+ENCRYPTION:
+Plain text: nitkbuststop
+Cipher text: XSDULECDCDYZ
+Key: 10
+
+DECRYPTION:
+Cipher text: XSDULECDCDYZ
+Plain text: nitkbuststop
+Key: 10

@@ -1,0 +1,16 @@
+
+****d-value computation****
+
+d value: 160009
+
+****Signer Side****
+
+Message: [78, 73, 84, 75, 45, 83, 117, 114, 97, 116, 104, 107, 97, 108]
+Signature: [239327, 232507, 485122, 28827, 637869, 42941, 606603, 252876, 654385, 673165, 233114, 279032, 654385, 21514]
+
+****Verifier Side****
+
+Decrypted message: [78, 73, 84, 75, 45, 83, 117, 114, 97, 116, 104, 107, 97, 108]
+Decrypted message text: NITK-Surathkal
+
+MESSAGE VERIFICATION SUCCESS!!

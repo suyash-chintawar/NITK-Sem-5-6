@@ -1,0 +1,23 @@
+******ENCRYPTION******
+
+Block 1 :
+plain text block: acci
+cipher text block: k*
+
+Block 2 :
+plain text block: dent
+cipher text block: &>U
+
+complete cipher text: k*&>U
+
+******DECRYPTION******
+
+Block 1 :
+cipher text block: k*
+plain text block: acci
+
+Block 2 :
+cipher text block: &>U
+plain text block: dent
+
+complete deciphered text: accident

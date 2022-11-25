@@ -1,0 +1,9 @@
+ENCRYPTION:
+Plain text: mangofruit
+Cipher text: QERKSJVYMX
+Key: 4
+
+DECRYPTION:
+Cipher text: QERKSJVYMX
+Plain text: mangofruit
+Key: 4

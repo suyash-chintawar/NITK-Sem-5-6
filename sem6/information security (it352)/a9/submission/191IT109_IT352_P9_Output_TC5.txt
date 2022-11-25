@@ -1,0 +1,16 @@
+
+****d-value computation****
+
+d value: 160009
+
+****Signer Side****
+
+Message: [67, 121, 98, 101, 114, 32, 83, 101, 99, 117, 114, 105, 116, 121]
+Signature: [310202, 42392, 447329, 93308, 252876, 183231, 42941, 93308, 619453, 606603, 252876, 293338, 673165, 42392]
+
+****Verifier Side****
+
+Decrypted message: [67, 121, 98, 101, 114, 32, 83, 101, 99, 117, 114, 105, 116, 121]
+Decrypted message text: Cyber Security
+
+MESSAGE VERIFICATION SUCCESS!!

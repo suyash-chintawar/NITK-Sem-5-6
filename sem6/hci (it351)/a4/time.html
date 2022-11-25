@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title>Unit Converter (191IT109)</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</header>
+<body onload="startTime()">
+    <div id="wrapper">
+        <div id="header">
+            <h1>Change My Unit</h1>
+        </div>
+        <div id="content" style="height: 500px; margin: 0 auto;">
+            <div style="padding: 50px; font-size: 20px; color: red; font-weight: bold;">TIME CONVERTER</div>
+            <div id="panel">
+                <div id="from">
+                    <div>From:</div>
+                    <input id="first" type="number" placeholder="Value">
+                    <select id="unit-from" name="time-unit-from">
+                        <option value="seconds">Seconds</option>
+                        <option value="minutes">Minutes</option>
+                        <option value="milliseconds">Milliseconds</option>
+                        <option value="hours">Hours</option>
+                    </select>
+                </div>
+
+                <div id="to" style="padding: 10px;">
+                    <div>To:  </div>
+                    <input id="second" type="number" placeholder="Value">
+                    <select id="unit-to" name="time-unit-to">
+                        <option value="seconds" selected>Seconds</option>
+                        <option value="minutes">Minutes</option>
+                        <option value="milliseconds">Milliseconds</option>
+                        <option value="hours">Hours</option>
+                    </select>
+                </div>
+
+                <button id="btn-convert" onclick="convertTime()">Convert</button>
+            </div>
+        </div>
+        <div id="footer">
+            Change My Unit, Submitted by Suyash Chintawar<br>
+            NITK, Surathkal 2022<br>
+            Server time : 
+            <text id="time"></text>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+
+****d-value computation****
+
+d value: 11
+
+****Signer Side****
+
+Message: [71, 111, 111, 100, 32, 70, 114, 105, 100, 97, 121]
+Signature: [571, 382, 382, 1988, 1828, 1544, 829, 932, 1988, 709, 957]
+
+****Verifier Side****
+
+Decrypted message: [71, 111, 111, 100, 32, 70, 114, 105, 100, 97, 121]
+Decrypted message text: Good Friday
+
+MESSAGE VERIFICATION SUCCESS!!
